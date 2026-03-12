@@ -11,24 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		35D5FAFB2F59A50200E37022 /* App */ = {
+		FAF8D4962F62FE4C00566780 /* MoroLore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = App;
-			sourceTree = "<group>";
-		};
-		35D5FAFC2F59A50900E37022 /* DataModels */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DataModels;
-			sourceTree = "<group>";
-		};
-		35D5FAFE2F59A51500E37022 /* Modules */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		35D5FAFF2F59A51900E37022 /* Shared */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Shared;
+			path = MoroLore;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -47,11 +32,8 @@
 		35D5FAE42F59A4F600E37022 = {
 			isa = PBXGroup;
 			children = (
-				35D5FAFB2F59A50200E37022 /* App */,
-				35D5FAFC2F59A50900E37022 /* DataModels */,
-				35D5FAFE2F59A51500E37022 /* Modules */,
+				FAF8D4962F62FE4C00566780 /* MoroLore */,
 				35D5FAEE2F59A4F600E37022 /* Products */,
-				35D5FAFF2F59A51900E37022 /* Shared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				35D5FAFB2F59A50200E37022 /* App */,
-				35D5FAFC2F59A50900E37022 /* DataModels */,
-				35D5FAFE2F59A51500E37022 /* Modules */,
-				35D5FAFF2F59A51900E37022 /* Shared */,
+				FAF8D4962F62FE4C00566780 /* MoroLore */,
 			);
 			name = MoroLore;
 			packageProductDependencies = (
@@ -99,7 +78,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2620;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					35D5FAEC2F59A4F600E37022 = {
 						CreatedOnToolsVersion = 26.2;
@@ -204,6 +183,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -260,6 +240,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};

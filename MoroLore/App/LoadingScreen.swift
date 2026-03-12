@@ -46,3 +46,7 @@ extension UserDefaults {
         }
     }
 }
+
+#Preview {
+    LoadingScreen()
+}
