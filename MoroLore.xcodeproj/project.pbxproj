@@ -10,9 +10,22 @@
 		35D5FAED2F59A4F600E37022 /* MoroLore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoroLore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA0ACE812F63029B009919B3 /* Exceptions for "MoroLore" folder in "MoroLore" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 35D5FAEC2F59A4F600E37022 /* MoroLore */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FAF8D4962F62FE4C00566780 /* MoroLore */ = {
+		FA0ACDDE2F63014B009919B3 /* MoroLore */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA0ACE812F63029B009919B3 /* Exceptions for "MoroLore" folder in "MoroLore" target */,
+			);
 			path = MoroLore;
 			sourceTree = "<group>";
 		};
@@ -32,8 +45,8 @@
 		35D5FAE42F59A4F600E37022 = {
 			isa = PBXGroup;
 			children = (
-				FAF8D4962F62FE4C00566780 /* MoroLore */,
 				35D5FAEE2F59A4F600E37022 /* Products */,
+				FA0ACDDE2F63014B009919B3 /* MoroLore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +74,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FAF8D4962F62FE4C00566780 /* MoroLore */,
+				FA0ACDDE2F63014B009919B3 /* MoroLore */,
 			);
 			name = MoroLore;
 			packageProductDependencies = (
@@ -78,7 +91,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2630;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					35D5FAEC2F59A4F600E37022 = {
 						CreatedOnToolsVersion = 26.2;
@@ -183,7 +196,6 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -240,7 +252,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -256,6 +267,8 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoroLore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoroLore;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,6 +305,8 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoroLore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MoroLore;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
